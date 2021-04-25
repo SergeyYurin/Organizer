@@ -6,7 +6,7 @@
  }
 
  body {
-   background-color: rgb(238, 190, 190);
+   background-color: rgb(215, 215, 215);
    font-family: 'Poppins', sans-serif;
  }
 
@@ -28,7 +28,7 @@
    margin: 30px auto;
    overflow: auto;
    min-height: 300px;
-   background: radial-gradient( ellipse at left bottom, rgb(201, 85, 85) 0%, rgba(208, 102, 102, 0.9) 59%, rgba(199, 55, 55, 0.9) 100%);
+   background: radial-gradient( ellipse at left bottom, rgb(142, 142, 142) 0%, rgba(228, 228, 228, 0.9) 59%, rgba(162, 162, 162, 0.9) 100%);
    padding: 30px;
    border-radius: 10px;
    box-shadow: 10px 30px 10px 10px rgba(0, 0, 0, 0.19), 0 40px 40px rgba(0, 0, 0, 0.23);
@@ -69,6 +69,11 @@
    width: 100%;
  }
 
+ .btn:hover {
+   background: rgb(210, 70, 70);
+   color: rgb(7, 6, 6);
+ }
+
  .task {
    background: #d8d8d8;
    border: 1px solid rgb(167, 126, 126);
@@ -97,7 +102,7 @@
    padding-bottom: 40px;
    padding-left: 40px;
    padding-right: 40px;
-   background-color: #d58585;
+   background-color: #cbb3b3;
    border-radius: 10px;
    box-shadow: 10px 30px 10px 10px rgba(0, 0, 0, 0.19), 0 40px 40px rgba(0, 0, 0, 0.23);
  }

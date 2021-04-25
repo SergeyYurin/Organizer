@@ -92,7 +92,7 @@
 }
 
 .hero nav {
-  background: radial-gradient( ellipse at left bottom, rgb(201, 85, 85) 0%, rgba(208, 102, 102, 0.9) 59%, rgba(199, 55, 55, 0.9) 100%);
+  background: rgb(160, 160, 160);
   width: 100%;
   padding: 20px 40px;
   display: flex;
@@ -109,8 +109,25 @@
   padding: 8px 0;
   display: inline-block;
   right: 0;
-  background: rgb(189, 49, 49);
-  color: rgb(252, 252, 252);
+  background: rgb(104, 104, 104);
+  color: rgb(230, 230, 230);
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 7px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.hero nav button:hover {
+  width: 86px;
+  padding: 8px 0;
+  display: inline-block;
+  right: 0;
+  background: rgb(114, 245, 248);
+  color: rgb(24, 21, 21);
   border: none;
   padding: 10px 20px;
   margin: 5px;

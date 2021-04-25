@@ -1,11 +1,11 @@
 import { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import Header from './HeroComponents/Header';
-import Footer from './HeroComponents/Footer';
-import About from './HeroComponents/About';
-import MainName from './HeroComponents/MainName';
-import Tasks from './HeroComponents/Tasks';
-import AddTask from './HeroComponents/AddTask';
+import Header from './OrderTrackerComponents/Header';
+import Footer from './OrderTrackerComponents/Footer';
+import About from './OrderTrackerComponents/About';
+import MainName from './OrderTrackerComponents/MainName';
+import Tasks from './OrderTrackerComponents/Tasks';
+import AddTask from './OrderTrackerComponents/AddTask';
 import './OrderTracker.css';
 
 const Hero = ({ handleLogout }) => {
