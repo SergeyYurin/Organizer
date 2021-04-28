@@ -1,12 +1,6 @@
 {
   "tasks": [
     {
-      "text": "Tender cake",
-      "day": "04/23/2021",
-      "reminder": false,
-      "id": 2
-    },
-    {
       "text": "Json server restored",
       "day": "04/24/2021",
       "reminder": true,
@@ -17,6 +11,12 @@
       "day": "04/25/2021",
       "reminder": true,
       "id": 8
+    },
+    {
+      "text": "Going to make a cake",
+      "day": "04/25/2021",
+      "reminder": false,
+      "id": 9
     }
   ]
 }
