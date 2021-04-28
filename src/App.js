@@ -3,6 +3,7 @@ import {
   BrowserRouter,
   BrowserRouter as Router,
   Route,
+  Switch,
 } from 'react-router-dom';
 import fire from './fire';
 import Login from './components/Login';
@@ -90,25 +91,27 @@ const App = () => {
   return (
     <>
       <BrowserRouter>
-        <div className='App'>
-          {user ? (
-            <OrderTracker handleLogout={handleLogout} />
-          ) : (
-            <Login
-              email={email}
-              setEmail={setEmail}
-              password={password}
-              setPassword={setPassword}
-              handleLogin={handleLogin}
-              handleSignup={handleSignup}
-              hasAccount={hasAccount}
-              setHasAccount={setHasAccount}
-              emailError={emailError}
-              passwordError={passwordError}
-            />
-          )}
-        </div>
-        <Route path='/Login' component={Login} />
+        <Switch>
+          <div className='App'>
+            {user ? (
+              <OrderTracker handleLogout={handleLogout} />
+            ) : (
+              <Login
+                email={email}
+                setEmail={setEmail}
+                password={password}
+                setPassword={setPassword}
+                handleLogin={handleLogin}
+                handleSignup={handleSignup}
+                hasAccount={hasAccount}
+                setHasAccount={setHasAccount}
+                emailError={emailError}
+                passwordError={passwordError}
+              />
+            )}
+          </div>
+          <Route path='/Login' component={Login} />
+        </Switch>
       </BrowserRouter>
     </>
   );
