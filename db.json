@@ -1,10 +1,3 @@
 {
-  "tasks": [
-    {
-      "text": "One more order",
-      "day": "04/27/2021",
-      "reminder": true,
-      "id": 10
-    }
-  ]
+  "tasks": []
 }

@@ -95,7 +95,7 @@ const Hero = ({ handleLogout }) => {
       <div>
         <section className='hero'>
           <nav>
-            <h2>Welcome</h2>
+            <h2>Welcome administrator</h2>
             <button onClick={handleLogout}> Logout </button>
           </nav>
         </section>
