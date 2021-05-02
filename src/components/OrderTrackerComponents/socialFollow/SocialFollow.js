@@ -10,7 +10,9 @@ import './SocialFollow.css';
 export default function SocialFollow() {
   return (
     <div className='social-container'>
-      <h3>Social media to follow the creator</h3>
+      <h3 className='social-title'>
+        Social media to follow the creator
+      </h3>
       <a
         href='https://twitter.com/RealSergeyYurin'
         className='twitter social'

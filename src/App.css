@@ -2,9 +2,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: jeanne-moderno, serif;
-  font-style: normal;
-  font-weight: 500;
 }
 
 .MainButton {
@@ -14,21 +11,29 @@
   padding: 15px 0;
   color: #fff;
   font-size: 20px;
-  letter-spacing: 1px;
-  background: rgb(73, 147, 73);
-  border-radius: 10px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-style: normal;
+  background: rgb(99, 183, 235);
+  color: rgb(7, 7, 7);
+  border-radius: 15px;
+  transition: transform 250ms;
+  transform: translateY(-0.5px);
+  box-shadow: 4px 8px 15px 2px rgba(0, 0, 0, 0.3);
   cursor: pointer;
 }
 
 .MainButton:hover {
-  background: rgb(92, 184, 92);
+  background: rgb(52, 162, 230);
+  color: rgb(1, 1, 1);
+  box-shadow: 2px 3px 5px 1px rgba(0, 0, 0, 0.3);
 }
 
 .login {
   width: 100%;
   min-height: 100vh;
   padding: 0 20px;
-  background: #e9e9e9;
+  background: rgb(190, 212, 237)!important;
   display: flex;
 }
 
@@ -41,9 +46,9 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: radial-gradient( ellipse at left bottom, rgb(142, 142, 142) 0%, rgba(228, 228, 228, 0.9) 59%, rgba(162, 162, 162, 0.9) 100%);
+  background-color: rgb(216, 226, 237);
   box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.8);
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
 .login .loginContainer label {
@@ -60,6 +65,9 @@
   outline: none;
   font-size: 19px;
   padding: 10px;
+  font-family: objektiv-mk1, sans-serif!important;
+  font-weight: 400;
+  font-style: normal;
   background: rgba(255, 255, 255, 0.92);
   border-radius: 10px;
   color: rgb(6, 1, 1);
@@ -75,6 +83,9 @@
   margin: 14px 0 0 0;
   text-align: right;
   color: rgb(0, 0, 0);
+  font-family: objektiv-mk1, sans-serif!important;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .login .loginContainer .btnContainer p span {
@@ -84,6 +95,9 @@
   margin-left: 5px;
   cursor: pointer;
   transition: all 400ms ease-in-out;
+  font-family: objektiv-mk1, sans-serif!important;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .login .loginContainer .btnContainer p span:hover {
@@ -96,48 +110,21 @@
 }
 
 .hero nav {
-  background: rgb(160, 160, 160);
+  background-color: rgb(216, 226, 237);
   width: 100%;
   padding: 20px 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  font-family: objektiv-mk1, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  box-shadow: 0 1.8px 1.2px rgba(0, 0, 0, 0.034), 0 3.7px 3.3px rgba(0, 0, 0, 0.048), 0 8.5px 7px rgba(0, 0, 0, 0.06)
 }
 
 .hero nav h2 {
-  color: #fff;
-}
-
-.hero nav button {
-  width: 86px;
-  padding: 8px 0;
-  display: inline-block;
-  right: 0;
-  background: rgb(104, 104, 104);
-  color: rgb(230, 230, 230);
-  border: none;
-  padding: 10px 20px;
-  margin: 5px;
-  border-radius: 7px;
-  cursor: pointer;
-  text-decoration: none;
-  font-size: 15px;
-  font-family: inherit;
-}
-
-.hero nav button:hover {
-  width: 86px;
-  padding: 8px 0;
-  display: inline-block;
-  right: 0;
-  background: rgb(114, 245, 248);
-  color: rgb(24, 21, 21);
-  border: none;
-  padding: 10px 20px;
-  margin: 5px;
-  border-radius: 7px;
-  cursor: pointer;
-  text-decoration: none;
-  font-size: 15px;
-  font-family: inherit;
+  color: rgb(0, 0, 0);
+  font-family: objektiv-mk1, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
