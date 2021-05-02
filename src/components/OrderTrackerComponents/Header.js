@@ -10,7 +10,7 @@ const Header = ({ title, onAdd, showAdd }) => {
       <div style={{ textAlign: 'right' }}>
         <Button
           style={{ display: 'inline-block' }}
-          color={showAdd ? 'rgb(189, 49, 49)' : 'green'}
+          color={showAdd ? 'rgb(208, 68, 68)' : 'rgb(92, 184, 92)'}
           text={showAdd ? 'Close' : 'Add'}
           onClick={onAdd}
         />

@@ -1,6 +1,18 @@
 .social-container {
-    background: rgb(215, 215, 215);
+    background-color: rgb(190, 212, 237)!important;
     padding: 25px 50px;
+}
+
+.social-title {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.social-title:hover {
+    transition: transform 250ms;
+    transform: translateY(-4px);
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 a.social {

@@ -1,16 +1,10 @@
 {
   "tasks": [
     {
-      "text": "Cake for Alisa",
-      "day": "05/28/2021",
+      "text": "10 cup cakes for Kristina",
+      "day": "",
       "reminder": true,
-      "id": 1
-    },
-    {
-      "text": "12 makarons for Mary",
-      "day": "05/09/2021",
-      "reminder": true,
-      "id": 2
+      "id": 3
     }
   ]
 }
