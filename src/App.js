@@ -1,10 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import {
-  BrowserRouter,
-  BrowserRouter as Router,
-  Route,
-  Switch,
-} from 'react-router-dom';
+
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import firebase from './firebaseConfig';
 import Login from './components/Login';
 import OrderTracker from './components/OrderTracker';

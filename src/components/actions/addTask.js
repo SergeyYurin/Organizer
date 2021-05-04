@@ -1,0 +1,22 @@
+const addTask = (task) => {
+  return (dispatch, getState, { getFirebase }) => {
+    const firestore = getFirebase().firestore();
+    firestore.collection('tasks').add({
+      ...task,
+      date: new Date(),
+    });
+    TouchEvent(() => {
+      dispatch({
+        type: 'ADD_TASK',
+        task,
+      });
+    }).catch((err) => {
+      dispatch({
+        type: 'ADD_TASK_ERR',
+        err,
+      });
+    });
+  };
+};
+
+export default addTask;
