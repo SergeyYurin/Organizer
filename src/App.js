@@ -5,7 +5,7 @@ import {
   Route,
   Switch,
 } from 'react-router-dom';
-import fire from './fire';
+import firebase from './firebaseConfig';
 import Login from './components/Login';
 import OrderTracker from './components/OrderTracker';
 
@@ -31,7 +31,7 @@ const App = () => {
 
   const handleLogin = () => {
     clearErrors();
-    fire
+    firebase
       .auth()
       .signInWithEmailAndPassword(email, password)
       .catch((err) => {
@@ -52,7 +52,7 @@ const App = () => {
   const handleSignup = () => {
     clearErrors();
 
-    fire
+    firebase
       .auth()
       .createUserWithEmailAndPassword(email, password)
       .catch((err) => {
@@ -70,11 +70,11 @@ const App = () => {
   };
 
   const handleLogout = () => {
-    fire.auth().signOut();
+    firebase.auth().signOut();
   };
 
   const authListener = () => {
-    fire.auth().onAuthStateChanged((user) => {
+    firebase.auth().onAuthStateChanged((user) => {
       if (user) {
         clearInputs();
         setUser(user);

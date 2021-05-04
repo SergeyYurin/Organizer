@@ -12,7 +12,7 @@ import {
   getFirebase,
   ReactReduxFirebaseProvider,
 } from 'react-redux-firebase';
-import fire from './fire';
+import firebase from './firebaseConfig';
 import { createFirestoreInstance } from 'redux-firestore';
 
 const store = createStore(
@@ -20,7 +20,7 @@ const store = createStore(
   applyMiddleware(thunk.withExtraArgument({ getFirebase }))
 );
 const rrfProps = {
-  fire,
+  firebase,
   config: {},
   dispatch: store.dispatch,
   createFirestoreInstance,
