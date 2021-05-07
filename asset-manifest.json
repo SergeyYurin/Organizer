@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/SergeyYurin/organizer_json_db/static/css/main.21b37900.chunk.css",
+    "main.js": "/SergeyYurin/organizer_json_db/static/js/main.509e4a20.chunk.js",
+    "main.js.map": "/SergeyYurin/organizer_json_db/static/js/main.509e4a20.chunk.js.map",
+    "runtime-main.js": "/SergeyYurin/organizer_json_db/static/js/runtime-main.cb9dee3d.js",
+    "runtime-main.js.map": "/SergeyYurin/organizer_json_db/static/js/runtime-main.cb9dee3d.js.map",
+    "static/js/2.2a6fe13c.chunk.js": "/SergeyYurin/organizer_json_db/static/js/2.2a6fe13c.chunk.js",
+    "static/js/2.2a6fe13c.chunk.js.map": "/SergeyYurin/organizer_json_db/static/js/2.2a6fe13c.chunk.js.map",
+    "static/js/3.0501105c.chunk.js": "/SergeyYurin/organizer_json_db/static/js/3.0501105c.chunk.js",
+    "static/js/3.0501105c.chunk.js.map": "/SergeyYurin/organizer_json_db/static/js/3.0501105c.chunk.js.map",
+    "index.html": "/SergeyYurin/organizer_json_db/index.html",
+    "static/css/main.21b37900.chunk.css.map": "/SergeyYurin/organizer_json_db/static/css/main.21b37900.chunk.css.map",
+    "static/js/2.2a6fe13c.chunk.js.LICENSE.txt": "/SergeyYurin/organizer_json_db/static/js/2.2a6fe13c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cb9dee3d.js",
+    "static/js/2.2a6fe13c.chunk.js",
+    "static/css/main.21b37900.chunk.css",
+    "static/js/main.509e4a20.chunk.js"
+  ]
+}
