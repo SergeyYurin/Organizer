@@ -22,7 +22,7 @@ export default function SocialFollow() {
         <FontAwesomeIcon icon={faTwitter} size='2x' />
       </a>
       <a
-        href='https://www.instagram.com/RealSergeyYurin/?hl=en'
+        href='https://www.instagram.com/sergey.developer/?hl=en'
         className='instagram social'
         target='_blank'
         rel='noreferrer'
