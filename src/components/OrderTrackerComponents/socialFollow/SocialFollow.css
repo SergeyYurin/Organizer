@@ -8,13 +8,6 @@
     font-weight: 500;
 }
 
-.social-title:hover {
-    transition: transform 250ms;
-    transform: translateY(-4px);
-    text-decoration: underline;
-    cursor: pointer;
-}
-
 a.social {
     margin: 0 1rem;
     transition: transform 250ms;
