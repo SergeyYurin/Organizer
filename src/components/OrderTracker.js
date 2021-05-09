@@ -105,25 +105,23 @@ const Hero = ({ handleLogout }) => {
           path='/'
           exact
           render={(props) => (
-            <>
-              <div className='container'>
-                <Header
-                  title='Order tracker'
-                  onAdd={() => setShowAddTask(!showAddTask)}
-                  showAdd={showAddTask}
+            <div className='container'>
+              <Header
+                title='Order tracker'
+                onAdd={() => setShowAddTask(!showAddTask)}
+                showAdd={showAddTask}
+              />
+              {showAddTask && <AddTask onAdd={addTask} />}
+              {tasks.length > 0 ? (
+                <Tasks
+                  tasks={tasks}
+                  onDelete={deleteTask}
+                  onToggle={toggleReminder}
                 />
-                {showAddTask && <AddTask onAdd={addTask} />}
-                {tasks.length > 0 ? (
-                  <Tasks
-                    tasks={tasks}
-                    onDelete={deleteTask}
-                    onToggle={toggleReminder}
-                  />
-                ) : (
-                  'No orders to show'
-                )}
-              </div>
-            </>
+              ) : (
+                'No orders to show'
+              )}
+            </div>
           )}
         />
         <Route path='/about' component={About} />
